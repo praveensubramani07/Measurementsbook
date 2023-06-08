@@ -1,0 +1,234 @@
+
+header {
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(240,240,240);
+}
+
+.share-button svg {
+    margin-left: 12px;
+    margin-top: 10px;
+    color: rgb(0,0,0);
+}
+
+.container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240,240,240);
+}
+
+.tile {
+    width: 100%;
+    background-color: rgb(37,37,37);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+}
+
+.tile-share-button {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(52,52,52);
+}
+
+.tile-share-button svg {
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.tile p{
+    margin-left:10px;
+}
+
+.image-container {
+    height: 96px;
+    width: 96px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+.image-container img {
+    height: 100%;
+}
+
+.icon {
+    margin: 4px 8px;
+    width: 44px;
+    height: 44px;
+}
+.section-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.section {
+    width: 50%;
+   padding:5px;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: rgb(37, 37, 37);
+    border-radius: 17px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(240, 240, 240);
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: white; /* Set the desired color for the icons */
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #555; /* Set the desired color on hover */
+}
+
+.interests-section {
+  text-align: center;
+  max-width: 600px; /* Adjust the max width as desired */
+  margin: 0 auto; /* Center the section horizontally */
+  margin-bottom:20px;
+}
+
+.interests-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow boxes to wrap to the next line if needed */
+}
+
+.interest-box {
+  width: 100px; /* Adjust the width of the boxes as desired */
+  height: 40px; /* Adjust the height of the boxes as desired */
+  background-color: #FFFFFF;
+  border-radius: 20px; /* Adjust the border-radius to control the curvature */
+  border: 2px solid #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.interest-box span {
+  font-size: 12px; /* Adjust the font size as desired */
+  color: #333333;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+.bio-section {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bio-text {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.5;
+}
+
+
+
+.social-feeds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom:20px;
+  max-width:680px;
+}
+
+.social-feed {
+  width: 100%;
+  max-width: 680px;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  overflow: hidden;
+  max-height:200px;
+  
+}
+
+.social-feed iframe {
+  width: 100%;
+  
+  border: none;
+}
+
+.social-feed .post-content {
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.social-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-section a {
+  margin: 10px;
+}
+
+.social-section img {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+  .social-feed {
+    width: calc(25% - 20px);
+    margin: 10px;
+  }
+}
